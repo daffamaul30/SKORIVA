@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build output
+dist/
+.next/
+out/
+build/
+*.tsbuildinfo
+
+# Turborepo
+.turbo/
+
+# Test coverage
+coverage/
+
+# Environment
+.env
+.env.*
+.env.local
+.env.*.local
+!.env.example
+
+# Internal documentation and design references (kept locally, not published)
+.agents/
+design-reference/
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# Local and temporary files
+.DS_Store
+Thumbs.db
+*.bak
+*.tmp
+
+# OS / editor
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
